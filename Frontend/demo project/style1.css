@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;  
+   font-display: sans-serif;
+}
+
+.registration-body {
+  margin: 0;
+  padding: 0;
+  background-image: url('free-office.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.login-body{
+   margin: 0;
+  padding: 0;
+  background-image: url('paper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.aboutus-body{
+  margin: 0;
+  padding: 0;
+  background-image: url('logo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.centerdiv{
+   width: 300px;
+   height: 350px;
+   position: absolute;
+     top: 50%;
+     left: 50%;
+     color: lightskyblue;
+     text-align: center;
+     transform: translate(-50%,-50%);
+    background-color: whitesmoke;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.14),0 1px 4px rgba(0,0,0,0.40);
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
+
+.inputbox{
+  width: calc(100%-40px);
+  height: 30px;
+  display: block;
+  margin: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#profilepic{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  top: -50px;
+  left: calc((350px-120px)/12);
+}
+
+::placeholder{
+  letter-spacing: 2px;
+  color: black;
+}
+
+.button{
+  width: clac(100% -40px);
+  height: 30px;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  margin:4px 10px ;
+  color: black;
+
+}
+.login{
+color: blue;
+text-align: center;
+}
+/* login for*/
+.FORGOT-SECTION{
+  width: clac(100% -80px);
+  line-height: 30px;
+  display: block;
+  margin: auto;
+  color: blue;
+  
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: right;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: ;
+
+}
+.registrationdiv
+{ 
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12),0 1px 4px rgba(0,0,0,0.24);
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+}
