@@ -1,0 +1,214 @@
+
+/* For Navigation*/
+.topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: right;
+  color:white ;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+ background-color:lightgreen;
+  
+}
+
+.topnav a.active {
+  background-color: ;
+  color: white;
+}
+
+
+/* for index page body*/
+
+.index-body{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+/* for index page header*/
+
+.index-body h1{
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-align:center;
+	padding-top: 85px;
+	text-shadow: 3px 3px 3px #ababab;
+	font-family:  Segoe Print;
+
+
+}
+/* for index page Paraggraph*/
+.index-body p{
+	font-size: 22px;
+	overflow-x: hidden;
+	color: white;
+	word-spacing: 0.5em;
+	font-family:  Segoe Print;
+	text-align: center;
+}
+.btn{
+	
+    display: inline-block;
+	padding: 80px 90px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+
+}
+.btn-full{
+     padding-top: 50%;
+	background-color: transparent;
+	color: white;
+    margin-right: 15px;
+    border: 1px solid white;
+    padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	margin-left: 40%;
+}
+	
+	.btn-nav{
+    background-color: transparent;
+	color: white;
+    margin-right: 15px;
+    border: 1px solid white;
+    padding: 10px 30px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+}
+.btn-full:hover{
+	background-color: hotpink;
+
+}
+.btn-nav:hover{
+	background-color:hotpink;
+
+}
+
+.btn-full:hover{
+	background-color: hotpink;
+}
+/* Abous US page */
+.about p{
+	text-align: center;
+    
+}
+ 
+.about-section h1{
+	padding: 0px;
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	margin-top: 18px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-shadow: 3px 3px 3px #ababab;
+	padding-top: 70px;
+	color:black;
+	text-align: center;
+}
+.about-section p{
+    width: 39%;
+    height: 30%;
+    padding: 10px;
+    position: absolute;
+    font-family: papyrus;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    top: 50%;
+    left: 50% ;
+    margin-top: 12%;
+   color: whitesmoke;
+   margin-left: 2%;
+   word-spacing: 5px;
+    transform: translate(-50%,-50%);
+    color:black;
+  }
+
+/* Contact us from*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Contact Us page heading*/
+.container h2{
+	color: #bf55ec;
+	font-size: 250%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	font-weight: bold;
+
+}
+/*  contact us page Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 25%;
+  margin-top: 6px;
+ margin-right: 100px;
+   
+}
+.column-left{
+  float: left;
+  
+  margin-left: 10%;
+}
+.column-left p{
+  height: 2px;
+  font-size: 22px;
+}
+
+.column-left h3{
+	font-size: 28px
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
